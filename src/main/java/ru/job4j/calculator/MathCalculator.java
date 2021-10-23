@@ -17,11 +17,9 @@ public class MathCalculator {
         return divede(first, second) + difference(first, second) + sum(first, second) + multiply(first, second);
     }
 
-
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат divedeAndDifference: " + divedeAndDifference(10, 20));
         System.out.println("Результат sumAllMethods: " + sumAllMethods(10, 20));
-
     }
 }
